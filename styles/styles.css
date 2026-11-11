@@ -1,14 +1,21 @@
+:root {
+    --heading-background-color: darkblue;
+    --heading-text-color: white;
+    --heading-font: 'Montserrat', Arial, sans-serif;
+    --text-align: center
+}
+
 main {
     max-width: 840px;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
     padding: 20px;
 }
@@ -36,7 +43,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
@@ -47,5 +54,5 @@ aside img {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
 }
