@@ -1,10 +1,8 @@
 :root{
   --primary-color: #055a05505;
-  --secondary-color: #f4a261;
   --accent1-color: hsl(245, 79%, 50%);
-  --accent2-color: #e9c46a;
   --heading-font: 'Arial', sans-serif;
---body-font: 'Verdana', sans-serif;
+  --body-font: 'Verdana', sans-serif;
 }
 * {
   box-sizing: border-box;
