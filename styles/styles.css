@@ -68,7 +68,6 @@ aside {
     color: #333;
     text-align: var(--text-align);
     grid-column: 1/2;
-    grid-row: 1/2;
     position: relative;
 }
 
@@ -109,4 +108,9 @@ footer,
 head {
     max-width: 840px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
