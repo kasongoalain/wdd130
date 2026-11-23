@@ -57,7 +57,7 @@ nav a img {
 header nav {
   display: flex;
   justify-content: space-evenly;
-  background-color: solid #aaa;
+  background-color: solid #0078D7;
 }
 
 nav ul header img {
@@ -168,7 +168,7 @@ footer {
   width: 125px;
   border: 2px solid white;
   margin: 1rem;
-  box-shadow: #1E90FF;
+  box-shadow: solid #0078D7;
 }
 
 .adventures {
