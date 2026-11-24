@@ -92,11 +92,6 @@ article {
   height: auto;
 }
 
-.history h2 {
-  grid-column: 1/4;
-  text-align: center;
-}
-
 .history p {
   text-align: justify;
 
@@ -146,7 +141,8 @@ footer {
   bottom: 30px;
   left: 20px;
   right: 20px;
-
+  grid-column: 1/4;
+  text-align: center;
   background: rgba(30, 144, 255, 0.8);
   color: white;
   padding: 1rem;
