@@ -28,7 +28,6 @@ header {
   grid-template-columns: 1fr 2fr;
   align-items: center;
   padding: 10px;
-  border: var(--accent1-color);
 }
 
 nav ul {
