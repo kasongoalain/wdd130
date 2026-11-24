@@ -28,13 +28,13 @@ header {
   grid-template-columns: 1fr 2fr;
   align-items: center;
   padding: 10px;
-  border: 2px solid lightskyblue;
+  border: var(--accent1-color);
 }
 
 nav ul {
   flex-direction: row;
   align-items: center;
-  border: 2px solid lightskyblue;
+  border: var(--accent1-color);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
@@ -46,8 +46,7 @@ nav ul {
 nav li {
   text-align: center;
   padding: 10px;
-  color: white;
-  border-right: 2px solid lightskyblue;
+  border-right: var(--accent1-color);
 
 }
 
@@ -85,7 +84,7 @@ article {
   gap: 10px;
   align-items: center;
   padding: 20px;
-  border: 2px solid lightskyblue;
+  border: var(--accent1-color);
 }
 
 .history img {
@@ -113,7 +112,7 @@ footer {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  border: 2px solid lightskyblue;
+  border: var(--accent1-color);
 
 }
 
@@ -162,7 +161,7 @@ footer {
 .hero article img {
   float: right;
   width: 125px;
-  border: 2px solid white;
+  border: var(--accent1-color);
   margin: 1rem;
   box-shadow: var(--accent1-color);
 }
@@ -172,7 +171,7 @@ footer {
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   text-align: center;
-  border: 2px solid lightskyblue;
+  border: var(--accent1-color);
 }
 
 .adventures figure {
