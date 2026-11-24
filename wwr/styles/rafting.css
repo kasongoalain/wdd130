@@ -27,13 +27,14 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
+  border: solid blue;
   padding: 10px;
 }
 
 nav ul {
   flex-direction: row;
   align-items: center;
-  border: var(--accent1-color);
+  border: solid blue;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
@@ -45,7 +46,7 @@ nav ul {
 nav li {
   text-align: center;
   padding: 10px;
-  border-right: var(--accent1-color);
+  border-right: solid blue;
 
 }
 
@@ -83,7 +84,7 @@ article {
   gap: 10px;
   align-items: center;
   padding: 20px;
-  border: var(--accent1-color);
+  border: solid blue;
 }
 
 .history img {
