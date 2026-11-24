@@ -58,7 +58,7 @@ nav a img {
 header nav {
   display: flex;
   justify-content: space-evenly;
-  background: var(--accent1-color);
+  background: white;
 }
 
 nav ul header img {
